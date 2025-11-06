@@ -1,8 +1,8 @@
 <script lang="ts" module>
-	import { flip } from 'svelte/animate';
 	import { fade } from 'svelte/transition';
 
 	export type Schedule = {
+		key: number;
 		label: string;
 		start: number;
 		end: number;
@@ -44,7 +44,7 @@
 			</div>
 		{/each}
 	</div>
-	{#each props.schedules as schedule, i}
+	{#each props.schedules as schedule (schedule.key)}
 		<div
 			class="ease-ou absolute top-[2%] flex h-[96%] items-center justify-center overflow-hidden rounded-md bg-orange-400 p-1 text-xs text-white opacity-70 transition-all duration-300"
 			style={position(schedule)}

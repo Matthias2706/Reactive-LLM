@@ -9,6 +9,7 @@
 		args: {
 			schedules: [
 				{
+					key: 0,
 					label: 'Repair',
 					technician: 'Bob',
 					day: 'Mo',
@@ -16,6 +17,7 @@
 					end: 11
 				},
 				{
+					key: 1,
 					label: 'Windows',
 					technician: 'Fred',
 					day: 'Mo',
@@ -23,6 +25,7 @@
 					end: 16
 				},
 				{
+					key: 2,
 					label: 'Windows',
 					technician: 'Fred',
 					day: 'Mo',
@@ -30,6 +33,7 @@
 					end: 17.5
 				},
 				{
+					key: 3,
 					label: 'house',
 					technician: 'Susi',
 					day: 'Wed',
@@ -37,6 +41,7 @@
 					end: 16
 				},
 				{
+					key: 4,
 					label: 'house',
 					technician: 'Fred',
 					day: 'Wed',
