@@ -10,6 +10,12 @@
 			"options": {
 				"parser": "svelte"
 			}
+		},
+		{
+			"files": "*.svg",
+			"options": {
+				"parser": "html"
+			}
 		}
 	],
 	"tailwindStylesheet": "./src/app.css"

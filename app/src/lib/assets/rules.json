@@ -1,0 +1,82 @@
+[
+	{
+		"shortName": "Keine Überschneidungen",
+		"rule": "Termine dürfen sich nicht überschneiden; Doppelbuchungen sind zu verhindern."
+	},
+	{
+		"shortName": "Arbeitszeiten",
+		"rule": "Buchungen nur Mo–Fr zwischen 09:00 und 17:00 Uhr."
+	},
+	{
+		"shortName": "Pufferzeit",
+		"rule": "Vor und nach jedem Termin sind mindestens 15 Minuten Puffer einzuplanen."
+	},
+	{
+		"shortName": "Max. Termine pro Tag",
+		"rule": "Es sind maximal 8 Termine pro Person und Tag zulässig."
+	},
+	{
+		"shortName": "Mindestvorlauf",
+		"rule": "Termine müssen mindestens 24 Stunden im Voraus gebucht werden."
+	},
+	{
+		"shortName": "Stornofrist",
+		"rule": "Stornierungen/Änderungen sind bis 12 Stunden vor Beginn möglich."
+	},
+	{
+		"shortName": "Mindestdauer",
+		"rule": "Ein Termin muss mindestens 30 Minuten dauern."
+	},
+	{
+		"shortName": "Maximaldauer",
+		"rule": "Ein einzelner Termin darf höchstens 120 Minuten dauern."
+	},
+	{
+		"shortName": "Mittagspause",
+		"rule": "Zwischen 12:00 und 14:00 ist eine Pause von mindestens 30 Minuten sicherzustellen."
+	},
+	{
+		"shortName": "Reise-/Wechselzeit",
+		"rule": "Zwischen Vor-Ort-Terminen sind mindestens 30 Minuten Reise- oder Wechselzeit einzuplanen."
+	},
+	{
+		"shortName": "Zeitzone",
+		"rule": "Alle Zeiten gelten in Europe/Berlin; externe Einladungen werden automatisch konvertiert."
+	},
+	{
+		"shortName": "Bestätigungspflicht",
+		"rule": "Ein Termin gilt erst nach Bestätigung per E-Mail als verbindlich."
+	},
+	{
+		"shortName": "Erinnerungen",
+		"rule": "Automatische Erinnerungen 24 Stunden und 1 Stunde vor Beginn versenden."
+	},
+	{
+		"shortName": "Teilnehmerverfügbarkeit",
+		"rule": "Ein Termin wird nur geplant, wenn alle Pflichtteilnehmer verfügbar sind."
+	},
+	{
+		"shortName": "Raumkapazität",
+		"rule": "Der ausgewählte Raum darf von der Teilnehmerzahl her nicht überbelegt sein."
+	},
+	{
+		"shortName": "Feiertage",
+		"rule": "Keine Termine an gesetzlichen Feiertagen in Deutschland."
+	},
+	{
+		"shortName": "Wochenenden",
+		"rule": "Keine Termine am Samstag oder Sonntag."
+	},
+	{
+		"shortName": "Buchungsfenster",
+		"rule": "Termine sind nur 2 bis 60 Tage im Voraus buchbar."
+	},
+	{
+		"shortName": "Serientermine",
+		"rule": "Serientermine benötigen ein Enddatum und dürfen maximal 6 Monate laufen."
+	},
+	{
+		"shortName": "Online-Termine",
+		"rule": "Für virtuelle Meetings muss ein gültiger Videokonferenz-Link hinterlegt sein."
+	}
+]
